@@ -2,7 +2,7 @@ version: 0
 
 type: "single"
 worker:
-  container: "tensorflow/tensorflow:1.8.0-gpu"
+  # container: "tensorflow/tensorflow:1.8.0-gpu"
   command: "nvidia-smi"
   machine-type: "P5000"
-  # useDockerfile: true
+  useDockerfile: true
