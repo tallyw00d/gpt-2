@@ -5,4 +5,4 @@ worker:
   # container: "tensorflow/tensorflow:1.8.0-gpu"
   command: "nvidia-smi"
   machine-type: "P5000"
-  useDockerfile: true
+  use-dockerfile: true
