@@ -5,3 +5,6 @@ worker:
   container: "tensorflow/tensorflow:1.8.0-gpu"
   command: "python3 src/generate_unconditional_samples.py | tee /artifacts/samples.log"
   machine-type: "P5000"
+  dockerfile: "Dockerfile.gpu"
+    use: true
+    path: "./Dockerfile.gpu" 
